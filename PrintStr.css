@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(250, 235, 215, 0.584);
+    margin: 0%;
+}
+header{
+    padding: 5px;
+    background-color: rgba(212, 240, 239, 0.774);
+    border-bottom: 1px solid black;
+    position:sticky;
+    top: 0;
+    text-align: center;
+    box-shadow: 0px 2px 8px #ccc;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main{
+    margin-top: 10px;
+    background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 2px 6px rgb(88, 88, 88);
+    border-radius: 5px;
+}
+label,#heading{
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+}
+section{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+#mysentence,#myletter{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border:none;
+    width: 100%;
+    border-bottom: 1px solid rgb(147, 141, 141);
+    outline: none;
+}
+#myletter,h5{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+#mybutton{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+    background-color: rgba(100, 255, 139, 0.744);
+    font-family: 'Roboto Mono', monospace;
+}
+#mybutton:hover{
+    background-color: rgba(249, 167, 95, 0.826);
+    color: black;
+    box-shadow: 0px 0px 8px burlywood;
+}
