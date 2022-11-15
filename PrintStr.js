@@ -1,5 +1,5 @@
 
-var done=document.getElementById("mysentence" && "myletter");
+var done=document.getElementById("mysentence");
 done.addEventListener('change',function()
 {
    let submit=document.getElementById("mybutton");
